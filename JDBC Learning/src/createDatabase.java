@@ -8,7 +8,7 @@ public class createDatabase
     private static final String username = "root";
     private static final String password = "Azhar@2000";
     private static Connection conn;
-    private static Statement st;
+    private static Statement st;//use to fire query
 
     public static void main(String[] args) {
         try {
