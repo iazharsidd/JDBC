@@ -10,6 +10,7 @@ public class insertData
     private static final String password = "Azhar@2000";
     private static Connection conn;
     private static Statement st;
+    @SuppressWarnings("resource")
     public static void main(String[] args) {
         try {
             conn = DriverManager.getConnection(db_URL, username, password);
